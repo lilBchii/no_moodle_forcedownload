@@ -1,0 +1,11 @@
+{
+    "manifest_version":2,
+    "version":"1.0",
+    "name":"deactivate_moodle_forcedownload",
+    "content_scripts":[
+     {
+      "matches":["https://moodle.u-paris.fr/*"],
+      "js":["main.js"]
+     }
+    ]
+}
