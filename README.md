@@ -11,4 +11,4 @@ When you want to access the course, it downloads it automatically so you get dup
 You will save time and memory, this will make your student-at-Paris-Cité life easier !
 
 # How
-Some of the documents published on moodle while automatically be downloaded when you want to open them. This is because the link contains "forcedowload=1" parameter. This extension stupidly removes the parameter from the link.
+Some of the documents published on moodle will automatically be downloaded when you want to open them. This is because the link contains "forcedowload=1" parameter. This extension stupidly removes the parameter from the link.
