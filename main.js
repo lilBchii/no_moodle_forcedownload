@@ -1,2 +1,7 @@
 console.log("Force dowload extension working");
-for(l of document.getElementsByTagName("a")){l.href = l.href.replace("?forcedownload=1", "");}
+for(link of document.getElementsByTagName("a")){
+    if (link.href.indexOf('pdf') != -1 || link.href.indexOf('resource') != -1 || link.href.indexOf('content') != -1) {
+        link.target = "_blank";
+        link.href = link.href.replace("?forcedownload=1", "");
+    }
+}
