@@ -1,10 +1,10 @@
 {
     "manifest_version":2,
-    "version":"1.1",
+    "version":"1.4",
     "name":"deactivate_moodle_forcedownload",
     "content_scripts":[
      {
-      "matches":["https://moodle.u-paris.fr/*", "https://centralesupelec.edunao.com/*"],
+      "matches":["https://moodle.u-paris.fr/*", "https://centralesupelec.edunao.com/*", "https://webeep.polimi.it/*"],
       "js":["main.js"]
      }
     ]
